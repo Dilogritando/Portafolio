@@ -1,0 +1,177 @@
+/* fonts 
+font-family: 'Merriweather', serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Neuton', serif; */
+header {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.image-logo{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.image-logo img {
+     width: 100%;
+     margin: 0;
+     padding: 0;
+ }
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+ol{
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    padding: 0;
+    margin: 0%;
+}
+
+ol li{
+    list-style-type: none;
+    font-family: 'Merriweather', serif;
+    margin: 5px;
+    padding: 0.5em;
+    border: 1px solid black;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    line-height: 1.3em;
+    margin: 10px;
+}
+
+.hero {
+    background-image: url('./Recursos/MarianaC2.jpg');
+    background-color: #b38cb4;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    line-height: 1.1em;
+    font-size: 150%;
+    font-weight: 300;
+    margin: 3px 30% 3px 3px;
+}
+
+h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 4% 30% 1% 3%;
+    font-size: 250%;
+    line-height: 1.1em;
+}
+
+h3 {
+    color: #82007f;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    font-size: 190%;
+    line-height: 1.1em;
+}
+
+h4, h5, h6{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 20px 25px;
+}
+
+.cajasportafolio, .cajasexperiencia, .cajaspersonales{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article{
+    width: 100%;
+    margin: 1% 2% 2% 1%;
+    padding: 15px;
+    background-color: #e6e6e9;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 80%;
+    line-height: 1.3em;
+}
+
+/* ~~articles~~ */
+.project, .experience, .personales{
+    box-sizing: border-box;
+    align-items: baseline;
+    width: 30%;
+    margin: 10px;
+    font-size: 80%;
+    flex-shrink: 0.5;
+}
+
+.project{
+    height: 400px;
+    font-size: 70%;
+}
+
+.experience{
+    height: 300px;
+}
+
+.personales{
+    height: 170px;
+}
+
+article a{
+    font-size: 70%;
+    color: #82007f;
+}
+
+.project-image{
+    padding: 0;
+    margin: 0%;
+    width: 100%;
+}
+
+.project-image img{
+    width: 80%;
+    margin: 3px;
+}
+
+.project .contenedorHormiga{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.project .contenedorHormiga img{
+    height: 100%;
+    width: 60%;
+    padding: 0%;
+    margin: 0;
+}
+
+/*Fin*/
+
+.contacto, footer{
+    background-color: #b38cb4;
+    padding: 5px;
+}
+
+footer{
+    height: 150px;
+    display: flex;
+}
+
+footer img{
+    height: 65px;
+}
