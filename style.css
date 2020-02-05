@@ -12,25 +12,26 @@ header {
 .image-logo{
     padding: 0;
     margin: 0;
-    width: 100%;
+    width: inherit;
 }
 
 .image-logo img {
-     width: 100%;
+     width: inherit;
      margin: 0;
      padding: 0;
  }
 
 header a {
     color: black;
-    text-decoration: none;
+    text-decoration: none; 
+    width: 100%;
 }
 
 ol{
     width: 100%;
     align-self: center;
     text-align: center;
-    padding: 0;
+    padding: 0px;
     margin: 0%;
 }
 
@@ -39,7 +40,17 @@ ol li{
     font-family: 'Merriweather', serif;
     margin: 5px;
     padding: 0.5em;
-    border: 1px solid black;
+    border: 1px solid #82007f;
+    cursor: grab;
+}
+
+.link{
+    cursor: grab;
+}
+
+a.link.apply{
+    width: inherit;
+    display: block;
 }
 
 body {
@@ -54,7 +65,7 @@ body {
     background-size: 30%;
     background-repeat: no-repeat;
     background-position-x: right;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
 }
 
@@ -71,12 +82,13 @@ h2 {
     margin: 4% 30% 1% 3%;
     font-size: 250%;
     line-height: 1.1em;
+    justify-content: flex-start;
 }
 
 h3 {
     color: #82007f;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    margin: 0%;
+    margin: 6px;
     padding: 0%;
     font-size: 190%;
     line-height: 1.1em;
@@ -85,6 +97,11 @@ h3 {
 h4, h5, h6{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     margin: 20px 25px;
+}
+
+p{
+    padding: 0;
+    margin: 0px, 10px;
 }
 
 .cajasportafolio, .cajasexperiencia, .cajaspersonales{
@@ -98,7 +115,7 @@ article{
     margin: 1% 2% 2% 1%;
     padding: 15px;
     background-color: #e6e6e9;
-    border: 1px solid gray;
+    border: 1px solid #82007f;
     border-radius: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
@@ -119,10 +136,14 @@ article{
 .project{
     height: 400px;
     font-size: 70%;
+    border: none;
 }
 
 .experience{
-    height: 300px;
+    height: 150px;
+    text-align: center;
+    border: none;
+    
 }
 
 .personales{
@@ -132,6 +153,8 @@ article{
 article a{
     font-size: 70%;
     color: #82007f;
+    padding: 0%;
+    fle
 }
 
 .project-image{
@@ -141,13 +164,23 @@ article a{
 }
 
 .project-image img{
-    width: 80%;
+    width: 55%;
     margin: 3px;
+}
+
+.experience .project-image{
+    height: 40px;
+    margin: 2px;
+}
+
+.experience .project-image img{
+    height: 100%;
+    width: auto;
 }
 
 .project .contenedorHormiga{
     box-sizing: border-box;
-    width: 100%;
+    width: 60%;
     height: 50%;
     padding: 0;
     margin: 0;
@@ -155,23 +188,24 @@ article a{
 
 .project .contenedorHormiga img{
     height: 100%;
-    width: 60%;
     padding: 0%;
     margin: 0;
 }
 
 /*Fin*/
 
-.contacto, footer{
+.contact{
     background-color: #b38cb4;
-    padding: 5px;
-}
-
-footer{
-    height: 150px;
+    border-radius: 10px;
+    height: 130px;
+    margin: 2px;
+    padding: 6px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70%;
 }
 
-footer img{
-    height: 65px;
+.redes img{
+    height: 50px;
 }
